@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import com.alibaba.fastjson.JSON;
 
 public class ServletJson extends HttpServlet{
-
+///哈哈
 	  private User buildUserDO(){  
 	        User user = new User();  
 	        user.setName("王二麻子");  
