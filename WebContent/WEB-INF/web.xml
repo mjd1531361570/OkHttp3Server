@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <display-name>HelloJson</display-name>
+  <servlet>
+    <servlet-name>UploadDownloadServlet</servlet-name>
+    <servlet-class>com.cc.uploaddownload.UploadDownloadServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UploadDownloadServlet</servlet-name>
+    <url-pattern>/UploadDownloadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ServletJson</servlet-name>
+    <servlet-class>com.cc.json.ServletJson</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletJson</servlet-name>
+    <url-pattern>/ServletJson</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>OkHttpLoginServlet</servlet-name>
+    <servlet-class>com.cc.okhttp.OkHttpLoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>OkHttpLoginServlet</servlet-name>
+    <url-pattern>/OkHttpLoginServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>MutiUploadDownloadServlet</servlet-name>
+  <servlet-class>com.cc.uploaddownload.MutiUploadDownloadServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>MutiUploadDownloadServlet</servlet-name>
+  <url-pattern>/MutiUploadDownloadServlet</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
